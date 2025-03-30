@@ -1,0 +1,35 @@
+@layer reset {
+  *,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a:visited {
+    color: inherit;
+  }
+
+  input {
+    all: unset;
+  }
+
+  fieldset {
+    border: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h5,
+  p {
+    word-wrap: break-word;
+  }
+}

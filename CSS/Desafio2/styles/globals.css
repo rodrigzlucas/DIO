@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@layer root {
+  :root {
+    --ff: "Roboto" sans-serif;
+
+    --black-900: hsla(0, 0%, 0%, 1);
+
+    --white-900: hsl(0, 0%, 100%);
+
+    --gray-300: hsla(0, 0%, 32%, 1);
+    --gray-100: hsla(0, 0%, 80%, 1);
+
+    --red-400: hsla(0, 100%, 40%, 1);
+
+    --padding-04: 0.4rem;
+    --padding-05: 0.5rem;
+    --padding-1: 1rem;
+    --padding-2: 2rem;
+    --padding-3: 3rem;
+
+    --padding-main--y: 4.5rem;
+
+    --margin-1: 1rem;
+    --margin-2: 2rem;
+    --margin-3: 3rem;
+
+    --gap-05: 0.5rem;
+    --gap-1: 1rem;
+    --gap-2: 2rem;
+
+    --fs-play--desc: 0.875rem;
+    --fs-play--principal-title: 1.25rem;
+
+    --fs-videos--desc: 0.75rem;
+    --fs-videos--subtitle: 0.75rem;
+    --fs-videos--principal-title: 0.875rem;
+
+    --fs-1: 1rem;
+    --fs-2: 2rem;
+    --fs-3: 3rem;
+
+    --fw-900: 900;
+    --fw-800: 800;
+    --fw-700: 700;
+    --fw-600: 600;
+
+    --breakpoint-mobile: 480px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-laptop: 1024px;
+    --breakpoint-desktop: 1200px;
+  }
+}

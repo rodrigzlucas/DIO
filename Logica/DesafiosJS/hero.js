@@ -2,7 +2,7 @@ class Hero {
   name;
   age;
   type;
-  atacks = {
+  attacks = {
     warrior: "Sword",
     wizard: "Magic",
     monk: "Martial Arts",
@@ -15,11 +15,11 @@ class Hero {
     this.type = type;
   }
 
-  atack() {
+  attack() {
     console.log(
-      `o ${this.type} atacou usando ${this.atacks[this.type.toLowerCase()]}`
+      `o ${this.type} atacou usando ${this.attacks[this.type.toLowerCase()]}`
     );
   }
 }
 
-new Hero("Lucas", 16, "Warrior").atack();
+new Hero("Lucas", 16, "Warrior").attack();
