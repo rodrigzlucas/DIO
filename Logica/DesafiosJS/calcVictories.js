@@ -4,18 +4,19 @@ const print = (wins, level) => {
 
 const calculateVictories = (victory, loses) => {
   const myVictories = victory - loses;
+
   const level = {
-    10: "Ferro",
-    20: "Bronze",
-    50: "Prata",
-    80: "Ouro",
-    90: "Platina",
     100: "Ascendente",
+    90: "Platina",
+    80: "Ouro",
+    50: "Prata",
+    20: "Bronze",
+    10: "Ferro",
   };
 
   let heroLevel = "Imortal";
 
-  for (const k of Object.keys(level).map(Number).sort((a, b) => a - b)) {
+  for (const k of Object.keys(level)) {
     if (myVictories < k) break;
     heroLevel = level[k];
   }

@@ -1,7 +1,4 @@
 class Hero {
-  name;
-  age;
-  type;
   attacks = {
     warrior: "Sword",
     wizard: "Magic",

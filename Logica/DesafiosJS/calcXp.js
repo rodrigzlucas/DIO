@@ -3,19 +3,20 @@ const print = (name, level) => {
 };
 
 const calculateXp = (name, experience) => {
+ 
   const level = {
-    1000: "Ferro",
-    2000: "Bronze",
-    5000: "Prata",
-    7000: "Ouro",
-    8000: "Platina",
-    9000: "Ascendente",
     10000: "Imortal",
+    9000: "Ascendente",
+    8000: "Platina",
+    7000: "Ouro",
+    5000: "Prata",
+    2000: "Bronze",
+    1000: "Ferro",
   };
 
-  let heroLevel = "Imortal"; 
+  let heroLevel = "Imortal";
 
-  for (const k of Object.keys(level).map(Number).sort((a, b) => a - b)) {
+  for (const k of Object.keys(level)) {
     if (experience < k) break;
     heroLevel = level[k];
   }
